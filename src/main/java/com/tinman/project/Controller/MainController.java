@@ -18,7 +18,6 @@ public class MainController {
         model.addObject("UserFront",new User());
         model.setViewName("index");
         return model;
-
     }
 
     @PostMapping("/valid")
@@ -28,9 +27,5 @@ public class MainController {
         }else
             return "User EROR";
     }
-
-
-
-
 
 }

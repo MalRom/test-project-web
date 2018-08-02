@@ -55,7 +55,7 @@
     <div class="row content">
         <div class="col-sm-8 text-left">
             <form action="#" th:action="@{/valid}" th:object="${UserFront}" method="post">
-                <h1>Войти</h1>
+                <h1>Авторизация</h1>
                 <div class="form-group">
                     <label for="usr">Имя</label>
                     <input type="text" class="form-control" id="usr" th:field="*{name}"/>
@@ -64,7 +64,6 @@
                     <label for="usr1">Пароль</label>
                     <input type="text" class="form-control" id="usr1" th:field="*{password}"/>
                 </div>
-
                 <button type="submit" class="btn btn-success">Войти</button>
             </form>
             <hr/>
