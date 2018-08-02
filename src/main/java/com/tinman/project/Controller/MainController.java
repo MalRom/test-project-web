@@ -1,4 +1,4 @@
-package com.tinman.project;
+package com.tinman.project.Controller;
 
 
 import com.tinman.project.Model.User;
